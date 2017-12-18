@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "Sebastian Siemssen <fubhy@fubhy.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.141",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "normalize.css": "^7.0.0",
+    "react-stickynode": "^1.4.0",
+    "react-transition-group": "^2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
+}

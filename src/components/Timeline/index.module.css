@@ -1,0 +1,13 @@
+.Wrapper {
+  padding-left: 30px;
+  border-left: 3px solid #00BCD4;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+@media (min-width: 775px) {
+  .Wrapper {
+    padding: 0 30px;
+    margin-left: 280px;
+  }
+}

@@ -1,0 +1,87 @@
+.Wrapper {
+  position: relative;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  &:before {
+    top: 3px;    
+    left: -43px;
+    height: 22px;
+    width: 22px;
+    border: 3px solid #00BCD4;
+    background: #fff;
+    outline: 5px solid #fff;
+  }
+
+  &:after {
+    top: 9px;
+    left: -37px;
+    width: 10px;
+    height: 10px;
+    background: #00BCD4;
+  }
+}
+
+.Place {
+  position: relative;
+}
+
+.Location {
+  color: #8a8a8a;
+}
+
+.Company {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Occupation {
+  color: #00BCD4;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.TimeFrame {
+  color: #8a8a8a;
+  margin-bottom: 15px;
+}
+
+.Description {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 850px) {
+  .Location {
+    position: absolute;
+    top: 7px;
+    right: 0;
+  }
+  
+  .Company {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 775px) {
+  .Meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+  }
+
+  .Occupation {
+    margin-top: 0;
+  }
+
+  .TimeFrame {
+    margin-bottom: 0;
+  }
+}

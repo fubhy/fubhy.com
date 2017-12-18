@@ -1,0 +1,12 @@
+.Wrapper {
+  text-align: center;
+  background-color: #007888;
+}
+
+.Link {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
