@@ -3,7 +3,6 @@ import { default as InternalLink } from 'gatsby-link';
 import { withRouter } from 'react-router';
 
 function isInternalLink(to, history) {
-  console.log(to, history);
   return true;
 }
 

@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Navigation from '../components/Navigation';
+import Particles from '../components/Particles';
 import styles from './index.module.css';
 
 const Layout = ({ children }) => (
@@ -12,8 +13,9 @@ const Layout = ({ children }) => (
       defaultTitle="Sebastian Siemssen"
       titleTemplate="%s - Sebastian Siemssen"
     />
-    <Navigation />
-    {children()}
+    {/* <Navigation /> */}
+    <Particles />
+    {/* {children()} */}
   </div>
 );
 
